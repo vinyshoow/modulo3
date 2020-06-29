@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,300&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+  background-color: rgb(113, 89, 193);
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+#links {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  width: 1000px;
+}
+#links a img {
+  margin-right: 24px;
+}
+
+#links a {
+  margin: 0 16px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.397);
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#links a.selected {
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+#links.header a:hover {
+  color: white;
+  border-bottom: 1px solid white;
+  transition: all linear 200ms;
+}
+
+#links .icons {
+  margin-left: 180px;
+}
+
+#links .icons a {
+  margin: 6px;
+}
+
+#links .icons a img {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+}
+
+#links .icons .button{
+  margin-left: 40px;
+  line-height: 38px;
+  font-size: 14px;
+  height: 50px;
+  color: rgb(113, 89, 193);
+  background-color: rgb(255, 255, 255);
+  padding: 8px 28px;
+  text-decoration: none;
+  border-radius: 5px;
+  text-transform: initial;  
+}
+
+#links #icons a:hover{
+  border: none;
+  color: rgb(113, 89, 193);
+}
+
+
+#content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  margin: 60px auto;
+  width: 1000px;
+}
+
+#content h1 {
+  font-weight: bold;
+  width: 460px;
+  height: 144px;
+  font-size: 36px;
+  color: #4b4b4b;
+}
+
+#content p {
+  width: 460px;
+  height: 96px;
+  font-size: 18px;
+  color: #9a8ebf;
+  margin: 10px 0;
+}
+
+#content .info a {
+  width: 269px;
+  height: 41px;
+  color: #ffffff;
+  background-color: #7159c1;
+  margin-top: 15px;
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#content .info a:hover{
+  opacity: 0.9;
+}
