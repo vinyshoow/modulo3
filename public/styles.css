@@ -70,6 +70,8 @@ header {
 
 .card {
   background-color: var(--color-rocket);
+  display: grid;
+  cursor: pointer;
 
 }
 
@@ -87,6 +89,7 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr;
   color: white;
+  align-items: center;
 }
 
 .card__price {
@@ -138,4 +141,38 @@ iframe {
   top: 12%;
   left: 5%;
 }
+
+/* FEATURED */
+.featured-wrapper.card__image-container {
+  position: relative;
+}
+.featured {
+  background-color: #f7d05f;
+  color: #111111;
+  padding: 2px 8px;
+  position: absolute;
+  right: 5px;
+  border-radius: 16px;
+  top: -10px;
+}
+
+/* VIDEO PAGE */
+
+.video {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.card__video-container {
+  position: relative;
+  padding-top: 50%;
+}
+
+.card__video-container iframe { 
+  width: 90%;
+  height: 100%;
+  position: absolute;
+  top: 2%;
+}
+  
   
